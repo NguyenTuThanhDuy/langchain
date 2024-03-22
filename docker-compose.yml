@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  qdrant_db:
+    image: qdrant/qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - ./qdrant_storage:/qdrant/storage:z
+    networks:
+      - langchain
+
+networks:
+  langchain:
+    driver: bridge
+
+volumes:
+  qdrant_db:

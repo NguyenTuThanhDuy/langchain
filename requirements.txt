@@ -1,0 +1,15 @@
+fastapi
+langchain
+langchain-openai
+faiss-cpu
+langchainhub
+langserve[all]
+beautifulsoup4
+python-dotenv
+polars
+qdrant-client
+tensorflow
+tensorflow_hub
+certifi
+psycopg2-binary
+pgvector
